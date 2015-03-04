@@ -1,0 +1,80 @@
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; background:#2e597b url(images/main_bg.jpg) top repeat-x; }
+html { padding:0; margin:0; }
+/* main */
+.main { width:100%; padding:0; margin:0 auto; }
+.resize { width:966px; margin:0 auto; }
+/********** header **********/
+.header { }
+.block_header { margin:0 auto; width:966px; }
+/* logo */
+.logo { float:left; padding:0; margin:44px 0 33px 0; width:251px; }
+/*Linkedin*/
+.Linkedin { font: normal 12px Georgia, "Times New Roman", Times, serif; color:#d6e8f5; background:url(images/Linkedin.png) left no-repeat; padding:10px 10px; margin:48px 0 0 0; width:158px; float:right; }
+.Linkedin a { float: right; padding:2px 0 0 3px}
+p.clr,
+.clr { clear:both; padding:0; margin:0; background:none; }
+/* menu */	
+.menu { padding:0; margin:0; width:966px; height:53px; background: url(images/bg_menu.gif) top repeat-x; }
+.menu ul { padding:0; margin:0 30px 0 0; list-style:none; border:0; float: left; }
+.menu ul li { float:left; margin:0; padding:0; border-right:1px solid #303030; border-left:1px solid #0a0a0a; }
+.menu ul li a { float:left; margin:0 1px 0 0; padding:17px 47px; color:#fff; font:normal 14px Georgia, "Times New Roman", Times, serif; text-decoration:none; }
+.menu ul li a:hover { background: url(images/hover.gif) left repeat-x; }
+.menu ul li a.active { background: url(images/hover.gif) left repeat-x; }
+
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+
+.body { padding:0; margin:0; }
+.body_resize { width:966px; margin:0 auto; padding:0; background:#fff; border-bottom:5px solid #0e0e0e; }
+.body h2 { font:normal 24px Georgia, "Times New Roman", Times, serif; color:#373737; padding:10px 5px; margin:0; }
+.body p { font:normal 16px Georgia, "Times New Roman", Times, serif; color:#8d8d8d; line-height:1.8em; padding:5px; margin:0; }
+.body strong { color:#656565; }
+
+.Welcome { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+.photo_cz { width:140px; margin:5px 15px 5px 18px; float:left; }
+.summary { width: 740px; float:right; }
+
+li.bg,
+.bg { clear:both; border-top:1px solid #eaeaea; padding:0; margin:5px 0; background:none; }
+/********** slider **********/
+.slider { margin:0 auto; padding:0; }
+.slider2 { margin:0 auto; padding:0; }
+.slice12 { margin:0 auto; width:966px; padding:0; background:url(images/bg_simple2.gif) top no-repeat; height:93px; }
+.slice12 h2 { font: normal 40px Georgia, "Times New Roman", Times, serif; color:#1c1d1c; padding:20px 40px; margin:0; }
+.slice { margin:0 auto; width:966px; padding:0; background:url(images/bg_simple2.gif) top no-repeat; height:93px; }
+.slice h2 { font: normal 40px Georgia, "Times New Roman", Times, serif; color:#1c1d1c; padding:20px 30px; margin:0; }
+/*simple text*/
+.simple { width:966px; margin:0 auto; padding:0; }
+.simple .text { font:normal 12px Arial, Helvetica, sans-serif; color:#858585; width:200px; float: right; margin:10px 0; padding:0; }
+.slider div.slice1 { margin:0 auto; width:966px; padding:0; }
+.slider div.slice1 div.slice2 { margin:0 auto; padding:1px; }
+.slider div div div { margin:0 auto; padding:0; width:966px; height:348px; background:url(images/bg_simple.gif) top no-repeat; }
+.slider div div div h2 { width:300px; float:left; font:normal 40px Georgia, "Times New Roman", Times, serif; color:#1c1d1c; padding:30px 0 0 40px; margin:0; line-height:1.2em; }
+.slider div div div p { width:300px; float:left; font:normal 11px Georgia, "Times New Roman", Times, serif; color:#262626; margin:0; padding:10px 0 0 40px; line-height:1.8em; }
+.slider div div div p.img { width:590px; float:right; padding:40px 0 0 0; margin:0; }
+/********** footer **********/
+.footer { padding:30px 0; margin:0 auto; }
+.footer .resize div { width:966px; color:#d6e8f5; font:normal 11px Tahoma, Geneva, sans-serif; text-align:left; margin:0 auto; }
+.footer .resize p.footer_logo { float:left; padding:0; margin:0 10px; }
+.footer .resize div p { padding:0; margin:0; float:right; }
+.footer .resize div a { color:#d6e8f5; font:normal 11px Tahoma, Geneva, sans-serif; padding:0 1px; }
+.footer .resize div img { margin:0; padding:0; }
+
+.ResearchesProjects { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+
+.Projects { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+.Projects ul li p em { font-style: oblique; }
+
+.HonorsAwards { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+.HonorsAwards ul li {padding: 0 0 12px 0; }
+
+.Conference { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+.Conference ul li {padding: 13px 0; }
+.Conference ul li p em { font-style: oblique; }
+
+.EducationExperience { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+.EducationExperience ul li {padding: 6px 0; }
+
+.ProfessionalExperience { width:916px; margin:5px 15px; float:left; padding:5px 10px; }
+.ProfessionalExperience ul li {padding: 8px 0; }
+.ProfessionalExperience ul li p em { font-style: oblique; }
